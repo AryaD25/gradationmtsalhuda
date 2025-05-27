@@ -1,0 +1,161 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.div-navbar {
+    background-color: rgb(88, 88, 88);
+    border: 2px solid white;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.li-navbar {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration-style: none;
+    color: white;
+}
+
+.ul-home {
+    background-color: wheat;
+    border: 2px white;
+    height: 4vh;
+}
+
+.home-navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(245, 230, 179);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.a-home {
+    background-color: rgb(255, 226, 171);
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.div-soal {
+    background-color: rgb(216, 216, 216);
+    margin: 5vh;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.ul-soal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-soal {
+    font-size: 25px;
+    margin: 2vh;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.button-soal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jawaban {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+    margin-left: 20px;
+}
+
+.ul-jawaban {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.li-jawaban {
+    margin: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.hasil {
+    display: none;
+}
+
+.pilihan:checked~.hasil {
+    display: inline-block;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+
+
+.ul-tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-tombol {
+    margin: 20px;
+    list-style-type: none;
+    border: 2px solid violet;
+    border-radius: 5px;
+}
+
+
+.a-tombol {
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration-line: none;
+}
+
+.a-tombol:hover {
+    background-color: rgb(255, 0, 255);
+}
+
+.div-footer {
+    background-color: #333;
+    border: 2px solid black;
+}
+
+.sp-footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
